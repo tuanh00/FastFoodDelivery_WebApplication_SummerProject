@@ -1,0 +1,44 @@
+.fail{
+    text-align: center;
+    padding: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 435px;
+    margin: 80px auto;
+}
+
+.iconfail{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.fail_icon{
+    font-size: 50px;
+     color: white;
+}
+.message{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.subMessage{
+    font-size: 18px ;
+    margin-top: 5px;
+}
+
+.payment-fail__button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

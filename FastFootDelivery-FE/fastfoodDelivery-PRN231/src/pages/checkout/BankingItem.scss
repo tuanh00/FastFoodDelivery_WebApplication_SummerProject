@@ -1,0 +1,19 @@
+.banking-item-container {
+  border: 1px dashed red;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 240px;
+  padding: 8px;
+  gap: 12px;
+
+  .banking-radio {
+    height: 20px;
+    width: 20px;
+  }
+
+  .banking-image {
+    object-fit: contain;
+    height: 100%;
+  }
+}

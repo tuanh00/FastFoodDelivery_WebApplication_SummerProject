@@ -1,0 +1,50 @@
+.checkout-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .checkout-title {
+    background-color: red;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .banking-container {
+    transform: translateY(-2px);
+    width: 900px;
+    min-height: 250px;
+    padding: 16px 12px;
+    border-top: 2px solid red;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    min-width: 500px;
+
+    .banking-text {
+      font-size: 16px;
+    }
+
+    .banking-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+  }
+
+  .checkout-btn {
+    margin-top: 24px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    text-decoration: none;
+  }
+}

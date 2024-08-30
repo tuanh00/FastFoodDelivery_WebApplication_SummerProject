@@ -1,0 +1,46 @@
+.carousel{
+    img{
+        width: 100%;
+        height: 80dvh;
+        object-fit: cover;
+        object-position: top;
+    
+    }
+    &.multi-item{ 
+        img{
+            height: 200px;
+        }
+    }
+.ant-card-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+ 
+}
+
+   &__cart{
+    align-self: center;
+    font-size: 2em;
+    padding-left: 20px;
+    
+   }
+   
+.swiper-wrapper{
+    padding-left: 20px;
+    gap: 10px;
+    width: 226.8px;
+
+}
+.swiper-slide {
+    width: 240px !important; 
+    margin-right: 10px !important; 
+  }
+
+  
+}
+
+h3{
+    padding-left: 20px !important;
+    padding-top: 10px !important;
+    margin-top: 36px !important;
+}

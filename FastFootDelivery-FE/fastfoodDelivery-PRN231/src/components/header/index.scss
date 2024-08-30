@@ -1,0 +1,95 @@
+.header{
+     background-color: rgba(0, 0, 0.25 , 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 100px;
+    backdrop-filter: blur(4.5px);
+    gap: 44px;
+
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+
+     &__nav{
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 27px;
+            flex-direction: row;
+
+            li {
+                color: #fff;
+                font-size: 20px;
+                a{
+                 text-decoration: none; 
+                 color: #fff;
+                }
+            }
+            .foodManagement{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                &__wrap{
+                width: auto;
+                padding: 10px 20px;
+                background-color: rgba(0, 0, 0.25 , 0.25) ;
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                li{
+                    padding: 10px 20px;
+                }
+                }
+                &:hover > .foodManagement__wrap{
+                    display: block;
+                }
+            }
+        }
+     }
+
+    //  &__search{
+    //     position: absolute;
+    //     top: -100%;
+    //     left: 0;
+    //     right: 0;
+    //     background-color: #fff;
+    //     padding: 10px 200px;
+    //     transition: all 1s;
+    //     display: flex;
+
+    //     input{
+    //         flex-grow: 1;
+    //         border: none;
+    //         outline: none;
+    //         font-size: 20px;
+    //     }
+    //     &.active{
+    //         top: 100%
+    //     }
+
+    //  }
+
+    .search{
+        gap: 10px;
+        &_input{
+        padding: 8px;
+        border: 10px solid #ccc;
+        border-radius: 8px;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+
+        &_icon{
+            color: white;
+        }
+
+         
+    }
+}

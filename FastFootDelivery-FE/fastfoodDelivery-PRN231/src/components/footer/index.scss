@@ -1,0 +1,100 @@
+.footer{
+    min-height: 300px;
+    background-color: rgb(82, 77, 77);
+    margin-bottom: -88px;
+    .footer__common{
+        display: block;
+        border: none;
+        min-height: 200px;
+        background-color: rgb(82, 77, 77);
+
+        .accordian {
+            /* Add your styles here */
+            border: none solid #ccc; /* Example style */
+            padding: 10px;          /* Example style */
+            background-color: rgb(82, 77, 77); /* Example style */
+            color: #fff;
+            align-items: center;
+            display: flex; /* Use flexbox */
+            justify-content: space-around; 
+            unicode-bidi: isolate;
+
+
+          }
+    }
+
+    .footer_card {
+        height: 250px;
+        background-color: rgb(82, 77, 77);
+        border: none;
+        padding: 10px;
+        margin: 0 10px; /* Add margin between cards */
+        overflow: hidden;
+        transition: opacity .5s;
+        flex-direction: row;
+        justify-content: space-around; 
+      }
+      
+      .card_header {
+        text-align: left;
+        h6{
+            color: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+        
+      }
+      
+      .card_body {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+        
+        li{
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            color: #ece3e3;
+            font-size: 14px;
+        }
+      }
+
+      .card_body ul {
+        list-style-type: none; /* Remove bullets from list */
+        padding-left: 0;       /* Remove default padding */
+      }
+
+      .card_body li {
+        margin-bottom: 5px; /* Add spacing between list items */
+      }
+      .app_footer_bottom{
+        background-color: rgb(82, 77, 77);
+      }
+      .social_link{
+        background-color: rgb(82, 77, 77); /* Dark background color */
+        color: #fff; /* White text color */
+        text-align: center;
+        padding: 20px;
+        
+        p{
+            margin: 0;
+            font-size: 14px;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+        .app_footer_bottom{
+            display: flex;
+           justify-content: center;
+            margin-top: 10px;
+
+            img{
+            margin: 0 10px;
+             width: 30px;
+            height: 30px;
+            gap: 20px;
+            // filter: invert(100%);
+            }
+        }
+         
+       
+      }
+   
+}

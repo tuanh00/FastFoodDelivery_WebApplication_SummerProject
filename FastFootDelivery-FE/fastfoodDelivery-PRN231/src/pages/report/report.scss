@@ -1,0 +1,99 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .icon-report {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .grid-container-report {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+  
+  // Main
+  .main-container-report {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 0px 20px 20px 20px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .main-title-report {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-cards-report {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 15px 0;
+  }
+  
+  .card-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+  }
+  
+  .card-report:first-child {
+    background-color: #2962ff;
+  }
+  
+  .card-report:nth-child(2) {
+    background-color: #ff6d00;
+  }
+  
+  .card-report:nth-child(3) {
+    background-color: #2e7d32;
+  }
+  
+  .card-report:nth-child(4) {
+    background-color: #d50000;
+  }
+  .card-report:nth-child(5) {
+    background-color: blueviolet;
+  }
+  
+  .card-inner-report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-inner-report > .card_icon-report {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .card-report h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .charts-report {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 300px;
+
+  }
+
+  
+  

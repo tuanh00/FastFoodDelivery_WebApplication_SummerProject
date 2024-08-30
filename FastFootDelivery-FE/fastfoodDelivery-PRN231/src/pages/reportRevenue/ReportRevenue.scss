@@ -1,0 +1,55 @@
+.main-Revenue {
+  padding: 20px;
+}
+
+
+.main-InnerRevenue {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-Revenue {
+  background-color: #7e4e9a;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.card-InnerRevenue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_iconReve {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+  .filter-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .charts_Revenue{
+   color: #fff;
+    background-color: rgb(89, 126, 168);
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 262px;
+    margin-top: 42px;
+
+  }
+  .earning-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .chartz {
+    transform: translateY(-50px) translateX(100px);
+  }
+  
