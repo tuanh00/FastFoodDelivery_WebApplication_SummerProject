@@ -54,6 +54,9 @@ Here are some views of the application's user interface:
 - **Admin Dashboard:**
   ![Admin Dashboard](images/admin_dashboard.jpg)
   ![Admin Food Item Management](images/admin_dashboard_foodItemManagement.jpg)
+  ![Admin Account Management](images/accounts_management.jpg)
+  ![Admin Account Management - Shipper Account Management](images/shipper_account_management.jpg)
+  ![Admin Account Management - Add New Shipper](images/admin_add_new_shipper.jpg)
   ![Admin Report View](images/admin_dashboard_report.jpg)
 
 - **Customer Payment UI:**
